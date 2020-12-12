@@ -1,47 +1,72 @@
 <!DOCTYPE html>
 <html lang="ja">
-    
     <head>
         <meta charset="UTF-8">
-        <title>company</title>
-        
+        <link rel="stylesheet" href="style.css">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <title>company</title>   
     </head>
-    
-    <body>
-        <h1>就活企業リスト</h1>
-        <h2 style="text-align:right;">ページ作成 2020/12/12<br>最終更新　2020/12/12</h2>
-        
-        <ul>
-            <li><a href = "https://about.yahoo.co.jp/hr/">ヤフー株式会社</a></li>
-            <dd>ポテンシャル採用　ホワイト感がずば抜けてるね。　オフィス天才的に綺麗</dd><br>
-            
-            <li><a href="https://linecorp.com/ja/career/newgrads/">LINE株式会社</a></li>
-            <dd>こちらもオフィスがとても綺麗。にしても社内に観葉植物多いな。ここはサバンナか。　</dd><br>
-            
-            <li><a href = "https://global.canon/ja/employ/new/">キヤノン　グローバル</a></li>
-            <dd>キヤノングループの総本山。　キヤノングループ会社との同時受験も可能</dd><br>
-            
-            <li><a href = "https://mypage.plus.i-web.jpn.com/canon-its/">キヤノンITソリューションズ株式会社</a></li>
-            <dd>キヤノングループ最大のシステム開発会社。</dd><br>
-            
-            <li><a href = "https://www.nttceng.com/recruit/graduates/">NTTコム　エンジニアリング株式会社</a></li>
-            <dd>流石のNTTグループともあって福利厚生がかなり良い。　月の残業時間の平均が17時間と他社とくらべると少ない気がする。</dd><br>
-            
-            <li><a href = "https://www.ibm.com/jp-ja/about/subsidiaries/ijds/recruit/"></a>日本IBMデジタルサービス株式会社</li>
-            <dd>日本IBMグループのシステム開発企業　</dd><br>
-            
-            <li><a href = ""></a></li>
-            <dd></dd><br>
-        </ul>
-        
-        
-        
-        
-    
-    
-    
-    
-    
-    </body>
-    </html> 
 
+    <body>
+        <nav class="navbar fixed-top navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">就活企業リスト</a>
+          </nav>
+
+        <div class="date">
+            <p class="text-muted mb-0">
+                ページ作成: 2020/12/12
+              </p>
+              <p class="text-muted">
+                最終更新: 2020/12/12
+              </p>
+        </div>
+
+        <a class="card mb-3 shadow-sm" href="https://about.yahoo.co.jp/hr/">
+            <div class="card-body">
+              <h5 class="card-title">ヤフー株式会社</h5>
+              <p class="card-text">ポテンシャル採用　ホワイト感がずば抜けてるね。　オフィス天才的に綺麗</p>
+            </div>
+        </a>
+
+        <a class="card mb-3 shadow-sm" href="https://linecorp.com/ja/career/newgrads/">
+            <div class="card-body">
+              <h5 class="card-title">LINE株式会社</h5>
+              <p class="card-text">こちらもオフィスがとても綺麗。にしても社内に観葉植物多いな。ここはサバンナか。</p>
+            </div>
+        </a>
+
+        <a class="card mb-3 shadow-sm" href="https://global.canon/ja/employ/new/">
+            <div class="card-body">
+              <h5 class="card-title">キヤノン　グローバル</h5>
+              <p class="card-text">キヤノングループの総本山。　キヤノングループ会社との同時受験も可能</p>
+            </div>
+        </a>
+
+        <a class="card mb-3 shadow-sm" href="https://mypage.plus.i-web.jpn.com/canon-its/">
+            <div class="card-body">
+              <h5 class="card-title">キヤノンITソリューションズ株式会社</h5>
+              <p class="card-text">キヤノングループ最大のシステム開発会社。</p>
+            </div>
+        </a>
+
+        <a class="card mb-3 shadow-sm" href="https://www.nttceng.com/recruit/graduates/">
+            <div class="card-body">
+              <h5 class="card-title">NTTコム　エンジニアリング株式会社</h5>
+              <p class="card-text">流石のNTTグループともあって福利厚生がかなり良い。　月の残業時間の平均が17時間と他社とくらべると少ない気がする。</p>
+            </div>
+        </a>
+
+        <a class="card mb-3 shadow-sm" href="https://www.ibm.com/jp-ja/about/subsidiaries/ijds/recruit/">
+            <div class="card-body">
+              <h5 class="card-title">日本IBMデジタルサービス株式会社</h5>
+              <p class="card-text">...</p>
+            </div>
+        </a>
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html> 
